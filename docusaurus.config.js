@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Docusaurus Search Example',
+  tagline: 'An offline/local search example using @easyops-cn/docusaurus-search-local',
   url: 'https://easyops-cn.github.io',
   baseUrl: '/docusaurus-search-example/',
   onBrokenLinks: 'throw',
@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'docusaurus-search-example', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Docusaurus Search Example',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/easyops-cn/docusaurus-search-local',
           label: 'GitHub',
           position: 'right',
         },
@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/easyops-cn/docusaurus-search-local',
             },
           ],
         },
@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/easyops-cn/docusaurus-search-example/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/easyops-cn/docusaurus-search-example/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -105,7 +105,8 @@ module.exports = {
     [
       "@easyops-cn/docusaurus-search-local",
       {
-        hashed: true
+        hashed: true,
+        language: ["en", "zh"]
       }
     ]
   ]

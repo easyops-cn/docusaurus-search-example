@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: '💪 Written in TypeScript',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A Result You Can Trust.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '🌎 Multi Languages Supported',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Dozens of languages supported, including 中文分词 🇨🇳.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '💅 Styles polished',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Looks pretty good, actually just like the Algolia Search on Docusaurus v2 website.
       </>
     ),
   },
@@ -64,15 +61,17 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">
+            An offline/local search example using <a href="https://github.com/easyops-cn/docusaurus-search-local" style={{color: "var(--ifm-hero-text-color)"}}>@easyops-cn/docusaurus-search-local</a>.
+          </p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={"#"}>
+              Try the search bar on the top-right corner.
             </Link>
           </div>
         </div>
