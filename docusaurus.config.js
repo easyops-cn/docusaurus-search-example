@@ -1,12 +1,12 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://easyops-cn.github.io',
+  baseUrl: '/docusaurus-search-example/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'easyops-cn', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-search-example', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -101,4 +101,12 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        hashed: true
+      }
+    ]
+  ]
 };
