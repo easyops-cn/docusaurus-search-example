@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'docusaurus-search-example', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Docusaurus Search Example',
+      title: 'Docusaurus Search',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
