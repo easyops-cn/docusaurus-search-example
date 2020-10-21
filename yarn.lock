@@ -1419,10 +1419,10 @@
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
 
-"@easyops-cn/docusaurus-search-local@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.6.0.tgz#0f861eec17c116eff4aef73cf017c00150c879ed"
-  integrity sha512-e8iPDb1g13atzPKLYH5MUnlhY9aHYjblfwBBVBj6RTAjOXFNLeB8nGJpUJYwlUyZYEyIytxeIOt+Jfc3bflXBQ==
+"@easyops-cn/docusaurus-search-local@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.7.0.tgz#9eca8a3f109f28119a3e3922e59c3b0cbeaa4678"
+  integrity sha512-lAqw2IfzzzbgvhX7xyY+ysqV7Wt8n4QoEWo+fhfW3gqOAoHx+h+enU1APJOtiFaZjJ8vhfdpdsz6bSRlGFAHbQ==
   dependencies:
     autocomplete.js "^0.38.0"
     cheerio "^1.0.0-rc.3"
@@ -1430,7 +1430,6 @@
     klaw-sync "^6.0.0"
     lunr "^2.3.9"
     lunr-languages "^1.4.0"
-    nodejieba "^2.4.1"
 
 "@endiliey/static-site-generator-webpack-plugin@^4.0.0":
   version "4.0.0"
