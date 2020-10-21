@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Docusaurus Search Example',
+  title: 'Docusaurus Search',
   tagline: 'An offline/local search example using @easyops-cn/docusaurus-search-local',
   url: 'https://easyops-cn.github.io',
   baseUrl: '/docusaurus-search-example/',
