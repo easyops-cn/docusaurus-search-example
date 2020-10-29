@@ -1419,14 +1419,15 @@
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
 
-"@easyops-cn/docusaurus-search-local@0.9.3":
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.9.3.tgz#8e6ada859f8117e6636725ec62c8b0af7114dc8e"
-  integrity sha512-LGr64kguL+U2jVrazwPsOnLGcFeZDDv54TZ19kEOguWClnh+YhT0+sJpiHE++S/IIJLt5mfzOPXib5UNdQuvBg==
+"@easyops-cn/docusaurus-search-local@0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.10.0.tgz#b6105d5258018f0910ff808948bb589ac52d6bdf"
+  integrity sha512-nq8SyEB4Mc8eKqINwKrNq5xmj0AZW4Cj/NZcnagdyDQr7hGJ9XgjxzNjlr07sIySNXLPBK1MU7KmbFrCxAPiSg==
   dependencies:
     "@hapi/joi" "^17.1.1"
     autocomplete.js "^0.38.0"
     cheerio "^1.0.0-rc.3"
+    clsx "^1.1.1"
     debug "^4.2.0"
     fs-extra "^9.0.1"
     klaw-sync "^6.0.0"
