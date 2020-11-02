@@ -1407,7 +1407,7 @@
     "@hapi/joi" "17.1.1"
     chalk "^3.0.0"
 
-"@docusaurus/utils@2.0.0-alpha.66":
+"@docusaurus/utils@2.0.0-alpha.66", "@docusaurus/utils@^2.0.0-alpha.66":
   version "2.0.0-alpha.66"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.66.tgz#ef679896e7d7e536cc8196cc303f5f2ced1f5ebb"
   integrity sha512-47jGB+Z3YVM6Xf1hxyNbJLMmc1qoTLmfwSf7NseKSkpjucbc5Ueivr+oVYp5yWoZw5sT5bObmdJYfJoD/RrbOg==
@@ -1419,11 +1419,12 @@
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
 
-"@easyops-cn/docusaurus-search-local@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.10.0.tgz#b6105d5258018f0910ff808948bb589ac52d6bdf"
-  integrity sha512-nq8SyEB4Mc8eKqINwKrNq5xmj0AZW4Cj/NZcnagdyDQr7hGJ9XgjxzNjlr07sIySNXLPBK1MU7KmbFrCxAPiSg==
+"@easyops-cn/docusaurus-search-local@0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.11.1.tgz#676104f54b3ad9aa23a6cbac133727802c5e911d"
+  integrity sha512-sZQVnARZwUZh/YSDwiUGC5e1v0U+/j5yd2/97cWuT9R4e98lAB0DOfDxCRIEIPFA+OJkaODPexihhWbOWidNTQ==
   dependencies:
+    "@docusaurus/utils" "^2.0.0-alpha.66"
     "@hapi/joi" "^17.1.1"
     autocomplete.js "^0.38.0"
     cheerio "^1.0.0-rc.3"
