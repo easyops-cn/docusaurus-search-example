@@ -1419,14 +1419,22 @@
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
 
-"@easyops-cn/docusaurus-search-local@0.11.1":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.11.1.tgz#676104f54b3ad9aa23a6cbac133727802c5e911d"
-  integrity sha512-sZQVnARZwUZh/YSDwiUGC5e1v0U+/j5yd2/97cWuT9R4e98lAB0DOfDxCRIEIPFA+OJkaODPexihhWbOWidNTQ==
+"@easyops-cn/autocomplete.js@^0.38.1":
+  version "0.38.1"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/autocomplete.js/-/autocomplete.js-0.38.1.tgz#46dff5795a9a032fa9b9250fdf63ca6c61c07629"
+  integrity sha512-drg76jS6syilOUmVNkyo1c7ZEBPcPuK+aJA7AksM5ZIIbV57DMHCywiCr+uHyv8BE5jUTU98j/H7gVrkHrWW3Q==
+  dependencies:
+    cssesc "^3.0.0"
+    immediate "^3.2.3"
+
+"@easyops-cn/docusaurus-search-local@0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.13.0.tgz#8b28e648454bdf38f19f122e8bf5866f888e054e"
+  integrity sha512-5T9h1UhO1A4ML3RjTnVvIU0a9F9WXbtSsGXCjEWs+NJ6if73c3+CSRSbSfmS1eCc8RdbUUI+nt4JxiHQLPubQA==
   dependencies:
     "@docusaurus/utils" "^2.0.0-alpha.66"
+    "@easyops-cn/autocomplete.js" "^0.38.1"
     "@hapi/joi" "^17.1.1"
-    autocomplete.js "^0.38.0"
     cheerio "^1.0.0-rc.3"
     clsx "^1.1.1"
     debug "^4.2.0"
@@ -1434,6 +1442,7 @@
     klaw-sync "^6.0.0"
     lunr "^2.3.9"
     lunr-languages "^1.4.0"
+    mark.js "^8.11.1"
 
 "@endiliey/static-site-generator-webpack-plugin@^4.0.0":
   version "4.0.0"
@@ -2297,13 +2306,6 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-autocomplete.js@^0.38.0:
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/autocomplete.js/-/autocomplete.js-0.38.0.tgz#9d49c2f4788fa23960275a6422ca78b310c01ef8"
-  integrity sha512-xZlqbg0LN9D1cZd4TkPJmir/Bq0+xXnp35X6i87yU2dD2wYv9E7pVU1+QKu0PbBVV2dShppwlKGMsfCYQD9OtA==
-  dependencies:
-    immediate "^3.2.3"
 
 autoprefixer@^9.6.1:
   version "9.8.6"
@@ -6368,6 +6370,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+mark.js@^8.11.1:
+  version "8.11.1"
+  resolved "https://registry.yarnpkg.com/mark.js/-/mark.js-8.11.1.tgz#180f1f9ebef8b0e638e4166ad52db879beb2ffc5"
+  integrity sha1-GA8fnr74sOY45BZq1S24eb6y/8U=
 
 markdown-escapes@^1.0.0:
   version "1.0.4"
