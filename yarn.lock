@@ -1531,10 +1531,10 @@
     cssesc "^3.0.0"
     immediate "^3.2.3"
 
-"@easyops-cn/docusaurus-search-local@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.14.0.tgz#acc1e13042d83803399ef2a63e41c0dd77a8ed48"
-  integrity sha512-LMQ8Wwa3Ow3kRtV7mxD+0h1qhDvCyb4ir90RZlEuOIcyT/Yf3vA/t+/Jk9zJMZT5lVX6lgLgHMV7PlHWR7/BlQ==
+"@easyops-cn/docusaurus-search-local@0.14.1":
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.14.1.tgz#a14834b7cbad85725f70070d42129715295c855b"
+  integrity sha512-mindZTHWyiwPs3ccNrshTvvbJULP+7bOfdbtbqNgV9onAXneGbWrvSmtwACKn+eu8rMjDplq6eSfdqW3Vmo6AA==
   dependencies:
     "@docusaurus/utils" "^2.0.0-alpha.68"
     "@easyops-cn/autocomplete.js" "^0.38.1"

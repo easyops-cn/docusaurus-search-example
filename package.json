@@ -13,7 +13,7 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.68",
     "@docusaurus/preset-classic": "2.0.0-alpha.68",
-    "@easyops-cn/docusaurus-search-local": "0.14.0",
+    "@easyops-cn/docusaurus-search-local": "0.14.1",
     "@mdx-js/react": "1.6.18",
     "clsx": "1.1.1",
     "nodejieba": "2.4.2",
