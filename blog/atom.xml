@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://easyops-cn.github.io/blog</id>
+    <title>Docusaurus Search Blog</title>
+    <updated>2019-06-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://easyops-cn.github.io/blog"/>
+    <subtitle>Docusaurus Search Blog</subtitle>
+    <icon>https://easyops-cn.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[编写良好的单元测试]]></title>
+        <id>writing-good-unit-tests</id>
+        <link href="https://easyops-cn.github.io/docusaurus-search-example/blog/writing-good-unit-tests"/>
+        <updated>2019-06-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文转载自 https://wangshenwei.com/writing-good-unit-tests/ 。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://easyops-cn.github.io/docusaurus-search-example/blog/welcome"/>
+        <updated>2019-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello]]></title>
+        <id>hello-world</id>
+        <link href="https://easyops-cn.github.io/docusaurus-search-example/blog/hello-world"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hola]]></title>
+        <id>hola</id>
+        <link href="https://easyops-cn.github.io/docusaurus-search-example/blog/hola"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+    </entry>
+</feed>
