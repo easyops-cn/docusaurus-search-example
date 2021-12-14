@@ -1519,10 +1519,10 @@
     cssesc "^3.0.0"
     immediate "^3.2.3"
 
-"@easyops-cn/docusaurus-search-local@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.21.1.tgz#620c36c3e658fb5ee8548fb3fbc05e668e931c18"
-  integrity sha512-qs3oPRjTik0TvMSBpEabd4dr0/FzaObuL4T19ZdMQiyBhsH3gNFVxhg1pUVQ6uXmM7KkRQgDRfgAjqCGlKCN2w==
+"@easyops-cn/docusaurus-search-local@0.21.3":
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.21.3.tgz#bd2582b51178732d3f8ef54e7bad6e9df37d98e6"
+  integrity sha512-zXldMlqaapL7y+940txT0yeIR0NLgfuR2RxHtvaumXmDmjIccG3Q9/zZXXaGK+vBEJU0O77HA7b+/8rIKzXJUQ==
   dependencies:
     "@docusaurus/utils" "^2.0.0-beta.4"
     "@docusaurus/utils-validation" "^2.0.0-beta.4"
