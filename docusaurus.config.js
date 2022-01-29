@@ -101,7 +101,7 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
+  themes: [
     [
       "@easyops-cn/docusaurus-search-local",
       {
