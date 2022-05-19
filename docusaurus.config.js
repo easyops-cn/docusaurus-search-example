@@ -7,6 +7,10 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'easyops-cn', // Usually your GitHub org/user name.
   projectName: 'docusaurus-search-example', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-CN', 'zh-TW'],
+  },
   themeConfig: {
     navbar: {
       title: 'Docusaurus Search',
@@ -25,6 +29,10 @@ module.exports = {
         {
           href: 'https://github.com/easyops-cn/docusaurus-search-local',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
